@@ -63,7 +63,7 @@ const Sidebar = () => {
 						background-color: white;
 						border-top-right-radius: 1000rem;
 						border-bottom-right-radius: 1000rem;
-						box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0);
+						box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.05);
 						width: 100%;
 					}
 				`}
