@@ -1,0 +1,34 @@
+.card {
+	width: 100%;
+	padding: 3rem;
+	background-color: var(--color-background-alt);
+	box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+}
+
+.card--anim {
+	transform: scale(1);
+	transition: var(--transition);
+}
+.card--anim:hover {
+	transform: scale(1.025);
+}
+
+.card--empty {
+	background-color: transparent;
+	box-shadow: none;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	display: grid;
+	place-content: center;
+}
+
+/* .card--empty > button {
+	display: flex;
+	align-items: center;
+}
+
+.card--empty > button > svg {
+	height: 2.5rem;
+	width: 2.5rem;
+	margin-right: 1rem;
+} */

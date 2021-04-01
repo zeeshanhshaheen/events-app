@@ -1,0 +1,27 @@
+.btn {
+	color: var(--color-text-light);
+	font-weight: 500;
+	padding: 1rem 1.5rem;
+	border-radius: 5px;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+}
+
+.btn:hover {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn svg {
+	width: 2rem;
+	height: 2rem;
+}
+
+.btn--both svg {
+	margin-right: 1rem;
+}
+
+.active svg {
+	stroke: rgb(105, 105, 103);
+	fill: rgb(105, 105, 103);
+}
