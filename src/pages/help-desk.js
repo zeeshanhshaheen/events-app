@@ -19,12 +19,10 @@ const HelpDesk = () => {
 								<p>Request New Software</p>
 							</div>
 							<div className="box">
-								<div>
-									<img src="/icons/view_status.png" alt="" />
-									<p>
-										Check <br /> Request Status
-									</p>
-								</div>
+								<img src="/icons/view_status.png" alt="" />
+								<p>
+									Check <br /> Request Status
+								</p>
 							</div>
 						</div>
 					</div>
