@@ -1,6 +1,6 @@
 import Sidebar from "@/components/resourcessidebar";
 import ActionBar from "@/components/actionBar";
-import FloatingActions from "@/components/floatingActions";
+import FloatingActions from "@/components/resourcesFloatingActions";
 import SectionResources from "@/components/resourcessection";
 import Link from "next/link";
 
@@ -109,7 +109,7 @@ const Resources = () => {
 			<style jsx>
 				{`
 					.action-bar {
-						margin-right: 400px;
+						margin-right: 200px;
 					}
 
 					.resources {
