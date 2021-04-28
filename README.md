@@ -1,3 +1,3 @@
-## Not responsive
+## An app build with Nextjs (Not responsive)
 
 https://xd.adobe.com/view/df763345-c3df-4838-b75a-df86a472df99-8a25/
